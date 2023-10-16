@@ -1,0 +1,8 @@
+#print length of a list
+marks = [12,34,23,54,19,59]
+
+length = len(marks)
+print("length of the list is:", length)
+
+marks_sum = sum(marks)
+print("Total marks you scored:", marks_sum)
