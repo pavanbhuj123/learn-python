@@ -1,0 +1,27 @@
+##Write 2 functions for avg_marks and calculate_grade for the marks you scored
+
+#function to find average of the marks you scored
+def average_marks(marks):
+    len_marks = len(marks)
+    total_marks = sum(marks)
+    avg_marks = int(total_marks/len_marks)
+    return avg_marks
+    
+#Calculate the grade and return it
+def calculate_grade(avg_marks):
+    if(avg_marks >= 80):
+        grade = 'A'
+    elif(avg_marks >=60 & avg_marks < 80):
+        grade = 'B'
+    elif(avg_marks >=50 & avg_marks < 60):
+        grade = 'C'
+    else:
+        grade = 'F'
+    return grade    
+        
+marks = [55,64,75,80,65]
+avg_marks = average_marks(marks)
+print("Your average marks is: ", avg_marks)
+
+grade = calculate_grade(avg_marks)
+print("Your overall grade is: ", grade)
