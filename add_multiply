@@ -1,0 +1,23 @@
+#create a program to add and multiply two numbers
+#create two functions add_numbers and multiply_numbers with return the result
+#Results to be printed from outside the functions
+
+#add numbers
+def add_numbers(number1, number2):
+    sum = number1 + number2
+    return sum
+    
+#multiply numbers
+def multiply_numbers(number1, number2):
+    product = number1*number2
+    return product
+
+n1 = int(input("ENTER NUMBER1: "))
+n2 = int(input("ENTER NUMBER2: "))
+
+sum = add_numbers(n1, n2)
+print("Sum of the numbers you entered: ", sum)
+
+product = multiply_numbers(n1, n2)
+print("Product of the numbers you entered: ", product)
+
