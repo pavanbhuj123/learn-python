@@ -1,0 +1,10 @@
+#usage of global keyword
+message = "How are you doing?"
+
+def greet():
+    global message
+    message = "How are you dude?"
+    print("Message inside the function: ", message)
+    
+greet()
+print("Message outside the function: ", message)
