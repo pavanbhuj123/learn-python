@@ -1,0 +1,14 @@
+#list of integers
+numbers_list = [1, 6.45,45,22]
+
+#mixed list
+mixed_list = [5, 6.7, -65, "Hello"]
+
+#empty list
+empty_list = []
+
+print("length of numbers_list: ", len(numbers_list))
+
+print("length of mixed_list: ", len(mixed_list))
+
+print("length of empty_list: ", len(empty_list))
