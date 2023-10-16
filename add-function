@@ -1,0 +1,6 @@
+#add function
+def add(num1, num2):
+    sum = num1 + num2
+    print("Sum of the numbers you entered is: ", sum)
+
+add(1, 2)   
