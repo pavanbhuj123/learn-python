@@ -1,0 +1,6 @@
+#Basic Function
+def greet():
+    print("Hello!")
+    print("How do you do?")
+    
+greet()
